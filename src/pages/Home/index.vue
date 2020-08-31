@@ -7,7 +7,7 @@
 <script>
 export default {
   components: {
-    Title: () => import('@/components/Text/Title'),
+    Title: () => import('@/components/text/Title'),
   },
 }
 </script>
