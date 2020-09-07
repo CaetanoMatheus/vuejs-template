@@ -11,6 +11,8 @@ Setting up Vue.JS environment is so boring, so a made this template to spare me 
 - [Vue Router](https://router.vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/)
 - [Sass Loader](https://www.npmjs.com/package/sass-loader)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Unicons](https://iconscout.com/unicons)
 - [Jest](https://jestjs.io/)
 
 ## Run this template
