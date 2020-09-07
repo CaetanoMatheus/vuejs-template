@@ -15,7 +15,31 @@ Setting up Vue.JS environment is so boring, so a made this template to spare me 
 - [Unicons](https://iconscout.com/unicons)
 - [Jest](https://jestjs.io/)
 
-## Run this template
+
+## Running with Docker
+#### Pre-requisites
+ - [Docker](https://www.docker.com/)
+ - [Docker Compose](https://docs.docker.com/compose/install/)
+
+#### Run the project
+After cloning the repository, run the command below at project's root directory. It will build the docker image, create the container and install all dependencies.
+```sh
+docker-compose up
+```
+
+By default it can be accessed at:
+
+```sh
+http://localhost:8080/
+```
+
+If wanted, you can run commands inside the container.
+```sh
+docker exec -it vuejs_template npm install axios
+```
+
+
+## Running without Docker
 #### Pre-requisites
 - [NODE.JS](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/) or [YARN](https://yarnpkg.com/)
