@@ -2,7 +2,7 @@
 <h1 align=center>Vue.JS Template</h1>
 <hr>
 
-## About React JS Template
+## About Vue.JS Template
 Setting up Vue.JS environment is so boring, so a made this template to spare me this repetitive work. :)
 
 ## Packages
