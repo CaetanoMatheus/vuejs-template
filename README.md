@@ -1,5 +1,5 @@
 <hr>
-<h1 align=center>React JS Template</h1>
+<h1 align=center>Vue.JS Template</h1>
 <hr>
 
 ## About React JS Template
