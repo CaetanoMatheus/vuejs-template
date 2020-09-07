@@ -1,29 +1,45 @@
-# vuejs-template
+<hr>
+<h1 align=center>React JS Template</h1>
+<hr>
 
-## Project setup
+## About React JS Template
+Setting up Vue.JS environment is so boring, so a made this template to spare me this repetitive work. :)
+
+## Packages
+- [Eslint](https://eslint.org/)
+- [Babel plugin root import](https://www.npmjs.com/package/babel-plugin-root-import)
+- [Vue Router](https://router.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/)
+- [Sass Loader](https://www.npmjs.com/package/sass-loader)
+- [Jest](https://jestjs.io/)
+
+## Run this template
+#### Pre-requisites
+- [NODE.JS](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/) or [YARN](https://yarnpkg.com/)
+
+#### Installing dependencies
+After cloning the repository, you will have to run one of the commands below at project's root directory.
+```sh
+npm install
 ```
+or
+```sh
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+#### Run It
+To run the project, you will have to run one of the commands below at project's root directory.
+```sh
+npm serve
 ```
+or
+```sh
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+By default it can be accessed at:
 
-### Run your unit tests
+```sh
+http://localhost:8080/
 ```
-yarn test
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
